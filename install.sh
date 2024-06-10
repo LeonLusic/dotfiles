@@ -28,8 +28,12 @@ chmod +x apt_install.sh
 chmod +x git.sh
 ./git.sh
 
-#
+# Install python
 chmod +x python.sh
 ./python.sh
+
+# Install Docker
+chmod +x docker.sh
+./docker.sh
 
 echo "Installation Complete!"
