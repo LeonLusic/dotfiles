@@ -21,6 +21,15 @@ for file in "${files[@]}"; do
 done
 
 # Install apt packages
+chmod +x apt_install.sh
 ./apt_install.sh
+
+# Configure Git account
+chmod +x git.sh
+./git.sh
+
+#
+chmod +x python.sh
+./python.sh
 
 echo "Installation Complete!"
