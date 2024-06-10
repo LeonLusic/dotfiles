@@ -5,6 +5,9 @@ alias yt="subl '$HOME/Google Drive/My Drive/YouTube/Scripts/'"
 alias cyt="cd '$HOME/Google Drive/My Drive/YouTube/Scripts/'"
 alias oyt="open '$HOME/Google Drive/My Drive/YouTube/Scripts/'"
 
+alias dotfiles="cd $HOME/dotfiles && clear"
+alias adam="cd $HOME/personal/trading-bot && source venv/bin/activate && clear"
+
 # Detect which `ls` flavor is in use
 if ls --color >/dev/null 2>&1; then # GNU `ls`
     colorflag="--color"
